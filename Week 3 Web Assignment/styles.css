@@ -1,0 +1,61 @@
+/* Element Selector: Change the font size of all headings */
+h1 {
+    font-size: 2.5em;
+    color: navy; /* Optional: Add color for emphasis */
+}
+
+h2 {
+    font-size: 2em;
+    color: darkgreen; /* Optional for other heading levels */
+}
+
+/* Class Selector: Apply a background color to specific sections */
+.description {
+    background-color: lightgray; /* Light background */
+    padding: 10px; /* Adds spacing inside the element */
+    border-radius: 5px; /* Adds rounded corners */
+}
+
+/* ID Selector: Add a border to an element with a unique ID */
+#unique-section {
+    border: 2px solid teal; /* Solid border */
+    padding: 15px; /* Spacing inside the box */
+    margin: 20px 0; /* Spacing outside the box */
+    background-color: #e6f7ff; /* Subtle background color */
+}
+/* Colors: Set text and background colors */
+/* Change background color of the webpage */
+body {
+    background-color: #f9f9f9;
+}
+
+/* Style links with hover effects */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.card {
+    background-color: #f0f8ff; /* Light background */
+    color: #333; /* Text color */
+    font-family: 'Verdana', sans-serif;
+    padding: 20px; /* Padding inside the card */
+    margin: 15px; /* Margin around the card */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Font styles */
+.card h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Text alignment */
+.card p {
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.5;
+}
